@@ -39,7 +39,8 @@ This project uses `uv` for lightning-fast dependency management and virtual envi
 2.  **Create Virtual Environment**
     ```bash
     uv venv
-    . .venv/bin/activate  # On Windows: .venv\Scripts\activate
+    
+    .venv/bin/activate  # On Windows: .venv\Scripts\activate
     ```
 
 3.  **Install Dependencies**
@@ -95,3 +96,4 @@ graph TD
 
 ## 📄 License
 MIT
+
