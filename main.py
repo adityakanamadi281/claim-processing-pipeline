@@ -10,7 +10,7 @@ from workflow import ClaimState, get_graph
 
 app = FastAPI(
     title="Claim Processing API",
-    description="AI-powered insurance claim document extraction using LangGraph + Claude",
+    description="AI-powered insurance claim document extraction using LangGraph + Gemini",
     version="1.0.0",
 )
 

@@ -15,7 +15,7 @@ def pdf_to_page_images(pdf_bytes: bytes, dpi: int = 150) -> list[dict]:
         pix = page.get_pixmap(matrix=mat, colorspace=pymupdf.csRGB)
         img_bytes = pix.tobytes("png")
 
-        # Resize if image is too large (Claude limit ~5MB)
+    
         img = Image.open(io.BytesIO(img_bytes))
         max_dim = 1568
         if max(img.size) > max_dim:
